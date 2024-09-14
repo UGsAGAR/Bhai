@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #D2D2D2;
+            background-image:
+            repeating-linear-gradient(
+                to right, transparent 0 100px,
+                #25283b22 100px 101px
+            ),
+            repeating-linear-gradient(
+                to bottom, transparent 0 100px,
+                #25283b22 100px 101px
+            );
+        }
+        
+        body::before{
+            position: absolute;
+            width: min(1400px, 90vw);
+            top: 10%;
+            left: 50%;
+            height: 90%;
+            transform: translateX(-50%);
+            content: '';
+            background-image: url(images/bg.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            pointer-events: none;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="banner">
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src="https://i.ibb.co/Ps2x1mC/Screenshot-20240912-211456.jpg" alt=""></div>
+            <div class="item" style="--position: 2"><img src="https://i.ibb.co/t2tRBp0/Screenshot-20240912-211330.jpg" alt=""></div>
+            <div class="item" style="--position: 3"><img src="https://i.ibb.co/9qqZXQV/Screenshot-20240912-211447.jpg" alt=""></div>
+            <div class="item" style="--position: 4"><img src="https://i.ibb.co/Qc97ZmQ/IMG-20240908-WA0016.jpg" alt=""></div>
+            <div class="item" style="--position: 5"><img src="https://i.ibb.co/hdLTYd8/IMG-20240908-WA0014.jpg" alt=""></div>
+            <div class="item" style="--position: 6"><img src="https://i.ibb.co/7Y1SdkS/IMG-20240908-WA0013.jpg" alt=""></div>
+            <div class="item" style="--position: 7"><img src="https://i.ibb.co/ypjqf4S/images.jpg" alt=""></div>
+            <div class="item" style="--position: 8"><img src="https://i.ibb.co/X37VWJh/IMG-20240912-212434.jpg" alt=""></div>
+            <div class="item" style="--position: 9"><img src="https://i.ibb.co/Qc97ZmQ/IMG-20240908-WA0016.jpg" alt=""></div>
+            <div class="item" style="--position: 10"><img src="https://i.ibb.co/9qqZXQV/Screenshot-20240912-211447.jpg" alt=""></div>
+        </div>
+        <div class="content"> <h1 data-content="TU BHAI HAI AAPNA ">
+  TU BHAI HAI AAPNA ❤️‍🩹
+            </h1>
+            <div class="author">
+                <h2>BHAI KE LIYE</h2>
+                <p><b>Web Design</b></p>
+                <p>
+                    Bhai Kya hi bolu tumhare baare me bolne ke liye shabd hi nahi hai kyuki tu dost nahi tu bhai hai aapna Tumhare liye do shabd hai Apne dil mein hamen basaye rakhna hamare Yado ke per yad rakhna, bahut lamba hai jindagi ka Safar mere bhai iska hissa hamen bhi banaya rakhna 🫴🫂
+                </p>
+            </div>
+            <div class="model"></div>
+        </div>
+        <audio controls autoplay>
+  <source src="song.mp3" type="audio/mpeg"> </source>
+</audio>
+    </div>
+    
+  
+    <img src="https://i.ibb.co/t2tRBp0/Screenshot-20240912-211330.jpg" alt=""width="2px"height="340px">
+   <center><video autoplay controls muted <source src="tu.mp4" width="250px" height="200px"></source></video></center>
+
+  
+</body>
+</html>
